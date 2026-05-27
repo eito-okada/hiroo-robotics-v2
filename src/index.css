@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.EN {
+    font-family: "Inter", sans-serif;
+}
+
+.JP {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+html {
+    font-family: "Inter", "Noto Sans JP", sans-serif;
+}

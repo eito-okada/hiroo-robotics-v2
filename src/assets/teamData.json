@@ -1,0 +1,118 @@
+[
+    {
+        "id": 1,
+        "name": "Shuma Hara",
+        "nameJP": "原柊馬",
+        "bio": "工学と音楽のコラボレーションの可能性を追及すると共に、経営学にも興味があります。その思いから、今回学内初のロボコンチームを立ち上げました。 皆様の応援よろしくお願いいたします！",
+        "imageUrl": "./shuma.JPG",
+        "team": "Leader"
+    },
+    {
+        "id": 2,
+        "name": "Eito Okada",
+        "nameJP": "岡田英虎",
+        "title": "開発部門リーダー / ソフトリーダー",
+        "bio": "本職はソフトですが、ハードにもちょくちょく首を突っ込んでいます。野球、ボーカル、ギター、テトリス、ルービックキューブなど、趣味が多いです。",
+        "imageUrl": "./eito.png",
+        "team": "soft"
+    },
+    {
+        "id": 3,
+        "name": "Rei Nishiyama",
+        "nameJP": "西山怜",
+        "title": "ハードリーダー",
+        "bio": "工学系で特に設計に興味あって、大体暇な時は漫画読むか寝るかCADいじるかしてます",
+        "imageUrl": "./placeholder.jpg",
+        "team": "hard"
+    },
+    {
+        "id": 4,
+        "name": "Joe Kurosu",
+        "nameJP": "黒須定",
+        "title": "財務PRリーダー",
+        "bio": "足が長いことしか取り柄がありません。",
+        "imageUrl": "./placeholder.jpg",
+        "team": "PR"
+    },
+    {
+        "id": 5,
+        "name": "Uryu Den",
+        "nameJP": "田雨竜",
+        "bio": "マーケティングと経済学に興味あります。",
+        "imageUrl": "./placeholder.jpg",
+        "team": "PR"
+    },
+    {
+        "id": 6,
+        "name": "Tomoharu Hayakawa",
+        "nameJP": "早川智晴",
+        "bio": "ロボットと機械学習に興味を持っています。FTCで楽しく学んでいきます。",
+        "imageUrl": "./tomo.jpg",
+        "team": "soft"
+    },
+    {
+        "id": 7,
+        "name": "Kanta Furukawa",
+        "nameJP": "古川貫太",
+        "bio": "子供の頃アメリカにいた時からロボットを作ったりしていて、今はFTCで3Dモデリングなどをやっています。将来はこの3Dモデリングの技術を航空宇宙工学で活かしたいです。",
+        "imageUrl": "./kanta.jpeg",
+        "team": "hard"
+    },
+    {
+        "id": 8,
+        "name": "Reito Ochi",
+        "nameJP": "越智玲斗",
+        "bio": "経済学とITを合体したことを将来やろうとしている、普段競技プログラムや趣味でプログラム作っている人",
+        "imageUrl": "./placeholder.jpg",
+        "team": "soft"
+    },
+    {
+        "id": 9,
+        "name": "Taiga Miyazaki",
+        "nameJP": "宮崎大雅",
+        "bio": "化学と工学に興味があり機械が好き。固体電池の研究やステージオペ、運動などいろんなことに手を出している。",
+        "imageUrl": "../placeholder.jpg",
+        "team": "hard"
+    },
+    {
+        "id": 10,
+        "name": "Shiyu Sano",
+        "nameJP": "佐野詞悠",
+        "bio": "核融合科学に興味があります。大学で物理か材料工学を専攻して、社会に出てからは核融合発電の商用化に関わりたいです。宇宙開発にも興味があり、月面で使えるコンクリートの研究なども行っています。NBA、MLBを見るのが趣味です。",
+        "imageUrl": "./placeholder.jpg",
+        "team": "PR"
+    },
+    {
+        "id": 11,
+        "name": "Rona Sando",
+        "nameJP": "山藤緑夏",
+        "title": "非公式メンター",
+        "bio": "時々顔出してます。趣味はLoLです。",
+        "imageUrl": "./rona.JPG",
+        "team": "soft"
+    },
+    {
+        "id": 12,
+        "name": "Takakazu Kitaguchi",
+        "nameJP": "北口貴一",
+        "bio": "こんにちは、北口貴一です。主に動画編集や撮影などを担当していますが、貢献できるよう頑張ります。",
+        "imageUrl": "./taka.jpg",
+        "team": "PR"
+    },
+    {
+        "id": 13,
+        "name": "Mizuki Koroki",
+        "nameJP": "高梠瑞己",
+        "bio": "今年からソフト部門に入りました。以前参加していたFLLでの活動を通してロボット制御の面白さに惹かれました。このチームで活躍できるように、色々な知識や技術を吸収していきたいです。",
+        "imageUrl": "./mizuki.jpeg",
+        "team": "soft"
+    },
+    {
+        "id": 14,
+        "name": "Ryotaro Ozawa",
+        "nameJP": "小澤諒太郎",
+        "bio": "小さい頃からMark Roberに憧れてものづくりに興味を持ちました。彼に近づけるよう、CADなどを勉強しています。",
+        "imageUrl": "./placeholder.jpg",
+        "team": "hard"
+    }
+]

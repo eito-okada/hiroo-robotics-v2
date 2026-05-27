@@ -1,0 +1,336 @@
+/* ── Hero ─────────────────────────────────────────────── */
+.topMain {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 12vh;
+    box-sizing: border-box;
+}
+
+.heroBg {
+    position: absolute;
+    inset: 0;
+    background-image: url('/ftcPhoto.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.heroOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(8, 16, 55, 0.45) 0%,
+        rgba(8, 16, 55, 0.28) 55%,
+        #F7F8FC 100%
+    );
+    z-index: 1;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.teamMotto {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #F2C94C;
+    font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 0.06em;
+}
+
+.teamName {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 1.05;
+}
+
+.goldSpan {
+    color: #F2C94C;
+}
+
+.teamNum {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    opacity: 0.6;
+}
+
+/* ── News ─────────────────────────────────────────────── */
+.news {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F8FC;
+    padding: 60px 0;
+}
+
+.newsTitleContainer {
+    width: 80%;
+    border-bottom: 2px solid #0C1A52;
+    padding: 0 20px 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.newsTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0C1A52;
+}
+
+.newsContainer {
+    width: 80%;
+    transition: background-color 200ms ease;
+}
+
+.newsContainer:hover {
+    background-color: #E8EAF6;
+}
+
+.newsColumn {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    font-size: 1.1rem;
+    min-height: 3rem;
+    align-items: center;
+    border-bottom: 1px solid #CBD5E1;
+    padding: 10px 0;
+}
+
+.columnDate > p {
+    width: 100%;
+    text-align: center;
+    color: #6B7280;
+    font-size: 0.95rem;
+}
+
+/* ── About Us ─────────────────────────────────────────── */
+.intro {
+    background-color: #FFFFFF;
+}
+
+.introTitle {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: left;
+    padding: 60px 0 0 120px;
+    margin-bottom: -10px;
+    color: #0C1A52;
+}
+
+.introSub {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #0C1A52;
+    padding-bottom: 30px;
+    opacity: 0.6;
+}
+
+.introSub.EN {
+    padding-left: 120px;
+}
+
+.layoutContainer1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    padding: 0 80px 60px;
+    box-sizing: border-box;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.textContainer > p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: #374151;
+    padding: 20px 0;
+}
+
+.textContainer > h3 {
+    font-size: 1.35rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: #0C1A52;
+}
+
+.moreButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.moreButton {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 12px 36px;
+    background-color: #0C1A52;
+    border-radius: 6px;
+    color: #FFFFFF;
+    transition: background-color 250ms ease;
+}
+
+.moreButton:hover {
+    background-color: #1A2D7A;
+}
+
+.imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageContainer > img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* ── About FTC ────────────────────────────────────────── */
+.aboutFtc {
+    background-color: #F0F2FA;
+}
+
+.ftcTitle {
+    font-weight: 700;
+    font-size: 4rem;
+    text-align: right;
+    padding: 60px 120px 0 0;
+    margin-bottom: -10px;
+    color: #0C1A52;
+}
+
+.ftcSub {
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: right;
+    color: #0C1A52;
+    opacity: 0.6;
+    padding-bottom: 30px;
+    padding-right: 120px;
+}
+
+/* ── Responsive ───────────────────────────────────────── */
+@media (max-width: 860px) {
+    .layoutContainer1 {
+        grid-template-columns: 1fr;
+        gap: 28px;
+        padding: 0 48px 48px;
+    }
+
+    .introTitle {
+        font-size: 3rem;
+        padding: 48px 0 0 48px;
+    }
+
+    .introSub.EN {
+        padding-left: 48px;
+    }
+
+    .ftcTitle {
+        font-size: 3rem;
+        padding: 48px 48px 0 0;
+    }
+
+    .ftcSub {
+        padding-right: 48px;
+        font-size: 1.3rem;
+    }
+
+    /* restore natural order so image stays above text on mobile */
+    .aboutFtc .layoutContainer1 > .imageContainer {
+        order: -1;
+    }
+}
+
+@media (max-width: 600px) {
+    .teamName {
+        font-size: 3.8rem;
+    }
+
+    .teamNum {
+        font-size: 2.2rem;
+    }
+
+    .teamMotto {
+        font-size: 1.15rem;
+    }
+
+    .layoutContainer1 {
+        padding: 0 24px 40px;
+    }
+
+    .introTitle {
+        font-size: 2.4rem;
+        padding: 40px 0 0 24px;
+    }
+
+    .introSub.EN {
+        padding-left: 24px;
+        font-size: 1.2rem;
+    }
+
+    .ftcTitle {
+        font-size: 2.4rem;
+        padding: 40px 24px 0 0;
+    }
+
+    .ftcSub {
+        padding-right: 24px;
+        font-size: 1.1rem;
+    }
+
+    .newsTitleContainer {
+        width: 90%;
+    }
+
+    .newsContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .teamName {
+        font-size: 2.8rem;
+    }
+
+    .teamNum {
+        font-size: 1.8rem;
+    }
+}
