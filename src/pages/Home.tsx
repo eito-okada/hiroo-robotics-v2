@@ -40,12 +40,14 @@ export default function Home() {
                     <div className="heroContent">
                         <FadeInText delayMs={0}>
                             <h3 className="teamMotto JP">
-                                <span className="EN">STEM</span>教育から、未来を創る
+                                <span className="EN">STEM</span>
+                                教育から、未来を創る
                             </h3>
                         </FadeInText>
                         <FadeInText delayMs={300}>
                             <h1 className="teamName">
-                                <span className="goldSpan">HIROO</span> ROBOTICS <span className="teamNum">#32682</span>
+                                <span className="goldSpan">HIROO</span> ROBOTICS{" "}
+                                <span className="teamNum">#32682</span>
                             </h1>
                         </FadeInText>
                     </div>
@@ -57,7 +59,7 @@ export default function Home() {
                             xmlns="http://www.w3.org/2000/svg"
                             className="arrow"
                         >
-                            <path d="M15.71,17.29a1,1,0,0,0-1.42,0L13,18.59V3a1,1,0,0,0-2,0V18.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,1.42,0l3-3A1,1,0,0,0,15.71,17.29Z"/>
+                            <path d="M15.71,17.29a1,1,0,0,0-1.42,0L13,18.59V3a1,1,0,0,0-2,0V18.59l-1.29-1.3a1,1,0,0,0-1.42,1.42l3,3a1,1,0,0,0,1.42,0l3-3A1,1,0,0,0,15.71,17.29Z" />
                         </svg>
                     </FadeInText>
                 </div>
@@ -66,7 +68,7 @@ export default function Home() {
                         <h2 className="newsTitle JP">お知らせ</h2>
                     </div>
                     <div className="newsContainer">
-                        <a href="./">
+                        <a href="./wip">
                             <div className="newsColumn">
                                 <div className="columnDate JP">
                                     <p>2025.11.24</p>
@@ -78,7 +80,7 @@ export default function Home() {
                         </a>
                     </div>
                     <div className="newsContainer">
-                        <a href="./">
+                        <a href="./wip">
                             <div className="newsColumn">
                                 <div className="columnDate JP">
                                     <p>2025.11.13</p>
@@ -154,7 +156,7 @@ export default function Home() {
                                 全世界から約9000チームが参加する世界最大規模のロボットコンテストです。
                             </p>
                             <div className="moreButtonContainer">
-                                <a href="./" className="moreButton JP">
+                                <a href="./wip" className="moreButton JP">
                                     詳細はこちら
                                 </a>
                             </div>

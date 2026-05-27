@@ -1,0 +1,118 @@
+/* ─── Layout ─────────────────────────────────────────── */
+.wipMain {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #0a0a0a;
+}
+
+/* Reuse the same hero background pattern from Home */
+.wipBg {
+    position: absolute;
+    inset: 0;
+    background-image: url("./robotBuilding.webp");
+    background-size: cover;
+    background-position: center;
+    filter: blur(4px) brightness(0.35);
+    transform: scale(1.05);
+    /* prevents blur edge bleed */
+}
+
+.wipOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(160deg,
+            rgba(0, 0, 0, 0.55) 0%,
+            rgba(10, 10, 10, 0.85) 60%,
+            rgba(0, 0, 0, 0.95) 100%);
+}
+
+/* ─── Content ─────────────────────────────────────────── */
+.wipContent {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem 2rem;
+    text-align: center;
+    animation: wipFadeUp 900ms cubic-bezier(0.25, 1, 0.5, 1) both;
+    animation-delay: 100ms;
+}
+
+@keyframes wipFadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(24px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ─── Typography ──────────────────────────────────────── */
+.wipLabel {
+    font-size: 0.7rem;
+    letter-spacing: 0.3em;
+    color: #c9a84c;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.wipTitle {
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    color: #f0ece4;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.wipTitle .EN {
+    color: #c9a84c;
+}
+
+.wipBody {
+    font-size: clamp(0.9rem, 2vw, 1rem);
+    color: rgba(240, 236, 228, 0.65);
+    line-height: 1.9;
+    max-width: 420px;
+    margin: 0;
+}
+
+/* ─── Back button ─────────────────────────────────────── */
+.wipBack {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0.65rem 1.5rem;
+    border: 1px solid rgba(201, 168, 76, 0.5);
+    color: #c9a84c;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    transition:
+        background 250ms ease,
+        color 250ms ease,
+        border-color 250ms ease;
+}
+
+.wipBack:hover {
+    background: #c9a84c;
+    color: #0a0a0a;
+    border-color: #c9a84c;
+}
+
+.wipBack svg {
+    transition: transform 250ms ease;
+}
+
+.wipBack:hover svg {
+    transform: translateX(-3px);
+}

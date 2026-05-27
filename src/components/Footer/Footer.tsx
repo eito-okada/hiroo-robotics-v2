@@ -8,16 +8,16 @@ export default function Footer() {
                     <a href="./">ホーム</a>
                 </div>
                 <div className={styles.link}>
-                    <a href="./about-ftc">FTCとは</a>
+                    <a href="./wip">FTCとは</a>
                 </div>
                 <div className={styles.link}>
                     <a href="./about-us">チームについて</a>
                 </div>
                 <div className={styles.link}>
-                    <a href="./">お知らせ</a>
+                    <a href="./wip">お知らせ</a>
                 </div>
                 <div className={styles.link}>
-                    <a href="./">お問い合わせ</a>
+                    <a href="./wip">お問い合わせ</a>
                 </div>
             </div>
             <div className={styles.sns}>

@@ -55,10 +55,10 @@ const UnderlineText: React.FC<AnimationTextProps> = ({ children, delayMs }) => {
 
 const NAV_LINKS = [
     { href: "./", label: "ホーム" },
-    { href: "./about-ftc", label: "FTCとは" },
+    { href: "./wip", label: "FTCとは" },
     { href: "./about-us", label: "チームについて" },
-    { href: "./", label: "お知らせ" },
-    { href: "./", label: "お問い合せ" },
+    { href: "./wip", label: "お知らせ" },
+    { href: "./wip", label: "お問い合せ" },
 ];
 
 export default function Header() {
@@ -80,7 +80,9 @@ export default function Header() {
             <div className={styles.navList}>
                 {NAV_LINKS.map((link) => (
                     <div key={link.label} className={styles.navItem}>
-                        <a href={link.href}><p>{link.label}</p></a>
+                        <a href={link.href}>
+                            <p>{link.label}</p>
+                        </a>
                     </div>
                 ))}
             </div>
@@ -90,9 +92,15 @@ export default function Header() {
                 onClick={() => setMenuOpen((o) => !o)}
                 aria-label="メニュー"
             >
-                <span className={`${styles.bar} ${menuOpen ? styles.bar1Open : ""}`} />
-                <span className={`${styles.bar} ${menuOpen ? styles.bar2Open : ""}`} />
-                <span className={`${styles.bar} ${menuOpen ? styles.bar3Open : ""}`} />
+                <span
+                    className={`${styles.bar} ${menuOpen ? styles.bar1Open : ""}`}
+                />
+                <span
+                    className={`${styles.bar} ${menuOpen ? styles.bar2Open : ""}`}
+                />
+                <span
+                    className={`${styles.bar} ${menuOpen ? styles.bar3Open : ""}`}
+                />
             </button>
 
             {menuOpen && (
