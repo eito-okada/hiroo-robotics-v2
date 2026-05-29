@@ -16,7 +16,7 @@
 .teamBanner {
     background-image:
         linear-gradient(rgba(8, 16, 55, 0.60), rgba(8, 16, 55, 0.55)),
-        url("./team.jpeg");
+        url("/team.jpeg");
     background-size: cover;
     background-position: center;
 }
